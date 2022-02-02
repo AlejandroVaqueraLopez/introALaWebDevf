@@ -1,2 +1,3 @@
 # devfClassExercises
-all the class exercises of devf bootcamp
+all the exercises [intro a la web]
+
