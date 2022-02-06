@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    width:100%;
+    height:80px;
+}
+header div{
+    float:right;
+    width:250px;
+    padding-top:20px;
+} 
+header div h4{
+    display:inline-block;
+    padding:10px;
+
+}
+header div h4 a{
+    text-decoration: none;
+    color:#000;
+}
+header div .menu{
+    display: inline-block;
+    height: 30px;
+    width:30px;
+    background:none;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/162/162740.png');
+    background-position: center;
+    background-size: cover;
+    border:none;
+    margin-left:10px;
+    cursor: pointer;
+    
+}
+header div .profile{
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    width:30px;
+    background:none;
+    background-image: url('https://cnnespanol.cnn.com/wp-content/uploads/2020/07/200707155106-mark-zuckerberg-1025-file-super-tease.jpg?quality=100&strip=info');
+    background-position: center;
+    background-size: cover;
+    border:none;
+    border-radius:50%;
+    margin-left:10px;
+
+}
+main{
+    width: 100%;
+    height:calc(100vh - 80px);
+    display: table;
+    text-align: center;
+    vertical-align: center;
+}
+main section{
+    display: cell;
+    height:auto;
+    width:100%;
+}
+main section img{
+    height: 160px;
+    width:auto;
+    margin-top:100px;
+}
+
+main section .input-group{
+    margin:30px;
+}
+
+main section .input-group .search-bar{
+    width:50%;
+    height: 35px;
+    border-radius:20px;
+    border:1px solid grey;
+    padding-left:10px;
+}
+main section .input-group .search{
+    border-radius:10px;
+    border:1px solid grey;
+    padding:10px;
+    cursor:pointer
+}
+main section .input-group .lucky{
+    border-radius:10px;
+    border:1px solid grey;
+    padding:10px;
+    cursor:pointer
+}
+
+main section h5{
+    margin:5px;
+    display:inline-block;
+}
+main section .blue{
+    margin:5px;
+    display:inline-block;
+    color:blue;
+}

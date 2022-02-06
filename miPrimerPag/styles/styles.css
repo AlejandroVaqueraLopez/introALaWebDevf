@@ -5,43 +5,63 @@
 header {
 	height:80px;
 	width:100%;
-	background:#000;
+	background-color: #838383;
 	color:#fff;
 	display:flex;
-	justify-content:flex-start;
+	justify-content:flex-end;
 	align-items:center;
+	position:absolute;
+	z-index:5;
+	top:50px;
+}
+header .profile{
+	width:140px;
+	height:140px;
+	position:absolute;
+	left:50px;
+}
+header .profile img{
+	height:100%;
+	width:100%;
+}
+header nav{
+	outline:solid green;
+	width:300px;
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 
-.title{
+nav .title{
 	padding-left:18px;
 }
 
 .dataContainer{
-	height:calc(100vh - 80px);
+	height:calc(100vh);
 	width:100%;
 	display:flex;
-	justify-content:center;
+	justify-content:space-between;
 	align-items:center;
-	background:grey;
 }
 
 .dataContainer__box{
-	height:auto;
-	width:400px;
-	border-radius:10px;
-	background:#000;
+	height:100vh;
+	width:270px;
+	background:#2D69CB;
 	color:#fff;
-	padding:18px;
+	padding:190px 18px;
 	display:flex;
 	flex-direction:column;
+	box-sizing: border-box;
 	align-items:center;
 }
 
 .dataContainer__box-item{
 	height:auto;
 	width:90%;
-	margin:15px;
+	margin:5px;
 	/*outline:solid red;*/
+	outline:solid green;
 }
 
 .dataContainer__box-item h5{
@@ -51,11 +71,66 @@ header {
 	padding-left:25px;
 }
 
+.social-media{
+	height:auto;
+	width:100%;
+	margin:5px;
+	outline:solid yellow;
+	display:flex;
+	flex-direction:column;
+	box-sizing: border-box;
+
+}
+.social-media .logos{
+	outline:solid red;
+	box-sizing: border-box;
+}
+
 .socialMedia{
-	height:50px;
-	width:50px;
-	border-radius:50%;
+	height:40px;
+	width:40px;
 	margin:5px;
 }
 
+section{
+	outline:solid red;
+	min-height: 50vh;
+	height: auto;
+	width: 50%;
+	margin-right: 180px;
+	margin-left: 80px;
+	box-sizing: border-box;
+	margin-top:100px;
+	background-color: #838383;
+	padding:10px;
+	color:#fff;
 
+}
+section h2{
+	font-size:50px;
+}
+section h3{
+	margin: 5px 0px;
+}
+section .container{
+	outline:solid red;
+	display:flex;
+	flex-wrap:wrap;
+}
+section .container .mini-box{
+	height: 50px;
+	width: 100px;
+	padding:10px;
+	margin:10px;
+	flex-grow:2;
+	outline:solid red;
+	background-color: #2D69CB;
+	transition:all 0.5s;
+	color:#fff;
+}
+
+section .container .mini-box:hover{
+	background-color: #fff;
+	color:#000;
+	cursor:pointer;
+}

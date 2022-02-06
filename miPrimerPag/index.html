@@ -14,12 +14,17 @@ Tu nombre, ocupación, hobbies, etc.
 Agrega una imagen tuya e inserta ligas que te dirijan a tus redes sociales.
 Además, encuentra y utiliza 5 etiquetas de HTML que sean distintas a las empleadas previamente. -->
 <header>
-	<h2 class="title">Mi primer página</h2>
+	<div class="profile">
+		<img src="./image/profile.jpg" alt="profile">
+	</div>
+	<nav>
+		<h2 class="title">Mi portafolio</h2>
+	</nav>
 </header>
 
 <main class="dataContainer">
 
-	<section class="dataContainer__box">
+	<aside class="dataContainer__box">
 
 		<div class="dataContainer__box-item">
 			<h3>Nombre:</h3>
@@ -38,18 +43,47 @@ Además, encuentra y utiliza 5 etiquetas de HTML que sean distintas a las emplea
 		</div>
 
 		<div class="dataContainer__box-item">
-
-			<marquee behavior="alternate" direction="right">Mis redes</marquee>
-
-			<a href="https://www.facebook.com/ale.monster.jam/"target="_blank">
-				<img class="socialMedia" src="http://assets.stickpng.com/images/58e91965eb97430e819064f5.png" alt="myFacebook">
-			</a>
-			<a href="https://www.instagram.com/soyvaquerale/" target="_blank">
-				<img class="socialMedia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/480px-Instagram-Icon.png" alt="myInstagram">
-			</a>
-
+			<div class="social-media">
+				</h2>Mis redes</h2>
+				<div class="logos">
+					<a href="https://www.facebook.com/ale.monster.jam/"target="_blank">
+						<img class="socialMedia" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="myFacebook">
+					</a>
+					<a href="https://www.instagram.com/soyvaquerale/" target="_blank">
+						<img class="socialMedia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/480px-Instagram-Icon.png" alt="myInstagram">
+					</a>
+				</div>
+			</div>
 		</div>
-	</secti>
+	</aside>
+	<section>
+		<h2>Mis estudios</h2>
+		<p>
+			Actualmente estoy estudiando en "Professional Coding" en DEVF, para tener un perfil
+			orientado al desarrollo web en <strong>Front-End</strong>
+		</p>
+		<h3>
+			Los módulos que cursaré son los siguientes:
+		</h3>
+		<div class="container">
+			<div class="mini-box">
+				<h4>Intro a la web</h4>
+			</div>
+			<div class="mini-box">
+				<h4>JS</h4>
+			</div>
+			<div class="mini-box">
+				<h4>Computer science</h4>
+			</div>
+			<div class="mini-box">
+				<h4>JS avanzado</h4>
+			</div>
+			<div class="mini-box">
+				<h4>Frontend</h4>
+			</div>
+		</div>
+
+	</section>
 </main>
 </body>
 </html>
