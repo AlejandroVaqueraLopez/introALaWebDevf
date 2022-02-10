@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+section{
+    outline:solid red;
+    height: auto;
+    width: auto;
+    max-width:500px;
+    
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,150px));
+    grid-template-rows: repeat(auto-fill,minmax(150px,150px));
+    gap: 20px;
+    padding:20px;
+    /*grid-template-areas:"area1 area1 area1"
+                        "area2 area2 area3"
+                        "area4 area4 area3";*/
+}
+div{
+    outline:solid green;
+    min-height: 150px;
+}
+div h5{
+    font-size:20px;
+}
+.item1{
+    /*grid-area:area1;*/
+    background-color: aqua;
+}
+.item2{
+    /*grid-area:area1;*/
+    background-color: aqua;
+}
+.item3{
+    /*grid-area:area1;*/
+    background-color: aqua;
+}
+.item4{
+    /*grid-area:area2;*/
+    background-color: red;
+}
+.item5{
+    /*grid-area:area2;*/
+    background-color: red;
+}
+.item6{
+    /*grid-area:area3;*/
+    background-color: green;
+}
+.item7{
+    /*grid-area:area4;*/
+    background-color: yellow;
+}
+.item8{
+    /*grid-area:area4;*/
+    background-color: yellow;
+}
+.item9{
+    /*grid-area:area3;*/
+    background-color: green;
+}
+.a{
+    grid-area:1/1/1/4;
+    background-color: aqua;
+}
+.b{
+    grid-column: 1/3;
+}
+.c{
+    grid-column: 3/4;
+    grid-row:2/4;
+}
+.d{
+    grid-column: 1/3;
+}
